@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "target": "es5",
+      "module": "commonjs",
+      "lib": ["es6", "ES2020.Promise", "ES2019.array"],
+      "allowJs": true,
+      "outDir": "./dist",
+      "rootDir": "src",
+      "strict": true,
+      "noImplicitAny": false,
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "skipLibCheck": true,
+      "strictNullChecks": false,
+      "moduleResolution": "node"
+    },
+    "exclude": [
+      "node_modules/*",
+      "build/*",
+      "migrations",
+      "tests/",
+      "dist/",
+    ]
+  
+}

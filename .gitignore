@@ -1,0 +1,8 @@
+/node_modules/
+/build/
+/lib/
+/dist/
+/docs/
+*.log
+*.lock
+coverage
